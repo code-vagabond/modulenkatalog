@@ -1,0 +1,117 @@
+body {
+  background-color: #ddd;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.badge {
+  background-color: #777;
+}
+
+.tabs-left { margin-top: 3rem; }
+
+.nav-tabs {
+  float: left;
+  border-bottom: 0;
+  
+
+  li {
+    float: none;
+    margin: 0;
+    
+    a {
+      margin-right: 0;
+      border: 0;
+      background-color: #333;
+      
+      &:hover {
+        background-color: #444;
+      }
+    }
+  }
+  
+  .glyphicon {
+    color: #fff;
+  }
+  
+  .active .glyphicon {
+    color: #333;
+  }
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  border:0;
+}
+
+.tab-content {
+  margin-left: 100px;
+  
+  .tab-pane {
+    display: none;
+    background-color: #fff;
+    padding: 1.6rem;
+    overflow-y: auto;
+  }
+  
+  .active { display: block; }
+}
+
+.list-group {
+  width: 100%;
+  
+  .list-group-item {
+    height: 50px;
+    
+    h4, span {
+      line-height: 11px;
+    }
+  }
+}
+
+[draggable] {
+  position: relative;
+  -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.list {
+  background-color: #E3E3E3;
+  border-radius: 3px;
+  margin: 5px 5px;
+  padding: 10px;
+  width: 260px;
+}
+.list>header {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  cursor: grab;
+}
+.list article {
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.list .card {
+  background-color: #FFF;
+  border-bottom: 1px solid #CCC;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+.list .card:hover {
+  background-color: #F0F0F0;
+}
+.detail {
+  font-size: 12px;
+  color: #939393;
+}
+.hidden {
+  display: none;
+}
+[data-fakenode] {
+  background-color: gray;
+}
