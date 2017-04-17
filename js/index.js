@@ -31,8 +31,8 @@ $("body").on("change","input",function(e){
 testIt();
 
 
-$("ul li").click(function(e) {
-
+//$("ul li").click(function(e) {
+$("li.li-semester-indicator, li.slider").click (function(e) {
   // make sure we cannot click the slider
   if ($(this).hasClass('slider')) {
     return;
