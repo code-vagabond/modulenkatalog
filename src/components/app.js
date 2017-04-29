@@ -7,10 +7,15 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <ModuleDetails />
+        <ModuleDetails  />
       </div>
     );
   }
 }
 
 
+
+//var test_student = {
+//	Bestanden: ['BM-MOD']
+//
+//};

@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux';
 import ModuleDetails from './data';
-import ActiveModules from './active_elem';
+import SelectedModules from './selected_modules';
+import TestStudent from './student';
 
 const rootReducer = combineReducers({
   moduleDetails: ModuleDetails,
-  activeModules: ActiveModules
+  selectedModules: SelectedModules,
+  student: TestStudent,
 });
 
 export default rootReducer;

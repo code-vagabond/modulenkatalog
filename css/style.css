@@ -111,7 +111,6 @@ header {
 }
 .list .card:active {
   color: #fff;
-  padding: 20px;
   background: #111;
   border: 1px solid #000;
   border-right: 1px solid #353535;
@@ -120,9 +119,34 @@ header {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+.bestanden {
+  color: #fff;
+  background: #111;
+  padding: 6px 8px;
+  border: 1px solid #000;
+  border-right: 1px solid #353535;
+  border-bottom: 1px solid #353535;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.vorgemerkt {
+  color: #fff;
+  background: rgba(17, 17, 17, 0.68);
+  padding: 6px 8px;
+  border: 2px dotted #fdc13c;
+/*  border-right: 2px dotted rgba(17, 17, 17, 0.68);
+  border-bottom: 2px dotted rgba(17, 17, 17, 0.68);*/
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
 .detail {
+  font-weight: normal;
   font-size: 12px;
-  color: rgb(64, 228, 64);
+/*  color: rgb(64, 228, 64);*/
 }
 .hidden {
   display: none;
@@ -255,3 +279,40 @@ body {
     opacity: 0;
   }
 }
+
+
+.bestanden-icon {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 10px;
+  color: rgb(64, 228, 64);
+
+  background: #111;
+  border: 1px solid rgb(64, 228, 64);
+  border-right: 1px solid rgb(64, 228, 64);
+  border-bottom: 1px solid rgb(64, 228, 64);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+
+}
+
+
+.vorgemerkt-icon {
+
+  display: inline-block;
+  font-weight: normal;
+  font-size: 10px;
+  color: #fdc13c;
+
+  background: rgba(17, 17, 17, 0.52);
+  border: 1px solid #fdc13c;
+  border-right: 1px solid #fdc13c;
+  border-bottom: 1px solid #fdc13c;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+
+
+}
+
