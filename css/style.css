@@ -141,6 +141,7 @@ header {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .detail {
@@ -280,7 +281,6 @@ body {
   }
 }
 
-
 .bestanden-icon {
   display: inline-block;
   font-weight: normal;
@@ -297,7 +297,6 @@ body {
 
 }
 
-
 .vorgemerkt-icon {
 
   display: inline-block;
@@ -313,6 +312,21 @@ body {
   -moz-border-radius: 2px;
   border-radius: 2px;
 
-
 }
 
+.durchgefallen-icon {
+
+  display: inline-block;
+  font-weight: normal;
+  font-size: 10px;
+  color: #f35b5a;
+
+  background: #111;
+  border: 1px solid #f35b5a;
+  border-right: 1px solid #f35b5a;
+  border-bottom: 1px solid #f35b5a;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+
+}
