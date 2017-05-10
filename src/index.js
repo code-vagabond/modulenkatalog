@@ -43,6 +43,7 @@ $("li.li-semester-indicator, li.slider").click (function(e) {
   // what tab was pressed
   var whatTab = $(this).index();
 
+  console.log(whatTab);
   // Work out how far the slider needs to go
   var howFar = 160 * whatTab;
 
@@ -84,12 +85,19 @@ $("li.li-semester-indicator, li.slider").click (function(e) {
   }).addClass("rippleEffect");
 });
 
+/*Progress Circle Test*/
+//$('#circle').circleProgress({
+//  value: 0.75,
+//  size: 80,
+//  fill: {
+//    gradient: ["red", "orange"]
+//  }
+//});
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-
 import App from './components/app';
 import reducers from './reducers';
 

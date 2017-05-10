@@ -55,8 +55,8 @@ h3 {
 }
 
 .tab-content .active {
-  display: block;
-  height: 600px;  
+  display: table;
+  height: 400px;  
 }
 
 .list-group {
@@ -167,6 +167,7 @@ header {
 
 .logo {
   margin-top: 5px;
+  margin-right: 140px;
   float: right; 
   width: 100px;
 }
@@ -208,6 +209,7 @@ body {
 }
 
 .li-semester-indicator {
+  box-shadow: 1px 1px 1px 1px #cecece;
   display: inline-block;
   width: 160px;
   height: 60px;
