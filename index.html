@@ -14,8 +14,9 @@
 
 <body>
   <div class="container">
-  
-  <div class="row">
+
+
+  <div class="row">     
     <div class="col-6">
       <img src="images/logo.png" class="logo">  
       
@@ -38,8 +39,21 @@
 
 
     </div>
-  </div>  
+  </div> 
+
+
+
+
   <div class="row">  
+    <div class="col">
+        <div class="tabs-left">
+            <ul class="nav nav-tabs main-nav">
+                <li class="active"><a href="#moduluebersicht" data-toggle="tab"><span class="glyphicon glyphicon-pushpin"></span></a></li>
+                <li><a href="#stats" data-toggle="tab"><span class="glyphicon glyphicon-stats"></span></a></li>
+                <li><a href="#calendar" data-toggle="tab"><span class="glyphicon glyphicon-calendar"></span></a></li>
+            </ul>
+        </div>
+    </div>
     <div class="col-6">  
       <div class="tabs-left">
           
@@ -47,7 +61,6 @@
           <li class="active"><a href="#a" data-toggle="tab">BASIS (8/93 CPs)</a></li>
           <li><a href="#b" data-toggle="tab">VERTIEFUNG (0/48 CPs) </a></li>
           <li><a href="#b" data-toggle="tab">NEBENFACH (0/24 CPs) </a></li>
-          <li><a href="#stat" data-toggle="tab">STATISTIKEN <span class="glyphicon glyphicon-stats"></span></a></li>
           <a><div id="circle"></div></a>
         </ul>
         <div class="tab-content">
@@ -169,7 +182,7 @@
               </a>
               <header>B-PRG2</header>
               <header class="module-name">Grundlagen der Programmierung 2</header>
-              <div class="detail">8CPs</div>
+              <div class="detail">8CPs <span class="durchgefallen-icon">1x durchgefallen</span></div>
             </article>
 
             <article class="card">
@@ -183,24 +196,6 @@
           </section>        
           </div>
           <div class="tab-pane" id="b">
-            <h3>What's your Favorite?</h3>
-            <ul class="list-group pull-left">
-              <li class="list-group-item">
-                <h4>Crystals &nbsp; &nbsp;<span class="badge pull-right">100%</span></h4>
-              </li>
-              <li class="list-group-item">
-                <h4>Healing &nbsp; &nbsp;<span class="badge pull-right">90%</span></h4>
-              </li>
-              <li class="list-group-item">
-                <h4>Exploring &nbsp; &nbsp;<span class="badge pull-right">78%</span></h4>
-              </li>
-              <li class="list-group-item">
-                <h4>QiGong &nbsp; &nbsp;<span class="badge pull-right">83%</span></h4>
-              </li>
-              <li class="list-group-item">
-                <h4>Myself &nbsp; &nbsp;<span class="badge pull-right">100%</span>
-                </h4></li>
-            </ul>
           </div>
         </div><!-- /tab-content -->
       </div><!-- /tabbable -->

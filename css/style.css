@@ -39,6 +39,16 @@ h3 {
   color: #333;
 }
 
+.main-nav .active .glyphicon {
+  color: #fff;
+  text-shadow: 0px 1px 16px #fff;
+}
+
+.main-nav > li.active > a, .main-nav > li.active > a:hover, .main-nav > li.active > a:focus {
+  border: 0;
+  background-color: #333;
+}
+
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   border: 0;
 }
