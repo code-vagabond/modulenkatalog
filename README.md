@@ -10,4 +10,4 @@ After installing NodeJS and NPM execute:
 
 Afterwards go to the repository folder and execute the following to run a Webpack test server: 
 
-'npm run webpack'
+`npm run webpack`
