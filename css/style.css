@@ -48,6 +48,9 @@ h3 {
   border: 0;
   background-color: #333;
 }
+.main-nav {
+  position: fixed;
+}
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   border: 0;
